@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Álgebra de Boole</title>
+    <link rel="stylesheet" href="Estilo calculadora.css">
+    <link rel="icon" href="icono Calces.png">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Álgebra de Boole</h1>
+        <textarea id="input" placeholder="Introduce la expresión booleana aquí..."></textarea>
+        <button onclick="simplificar()">Simplificar</button>
+        <h2>Expresión simplificada:</h2>
+        <div id="resultado"></div>
+        <h2>Mapa de Karnaugh:</h2>
+        <div id="mapa-karnaugh"></div>
+    </div>
+    <script src="boolean.js"></script>
+</body>
+</html>
